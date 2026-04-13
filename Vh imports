@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vh Imports</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #0a0a0a;
+    color: white;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.banner {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.banner h1 {
+    font-size: 32px;
+}
+
+.banner p {
+    color: #ccc;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 25px;
+    background: #c0c0c0;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.products {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.product {
+    background: #111;
+    padding: 15px;
+    text-align: center;
+}
+
+.product h3 {
+    font-size: 16px;
+}
+
+footer {
+    text-align: center;
+    padding: 30px;
+    font-size: 14px;
+    color: #aaa;
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+VH IMPORTS
+</header>
+
+<section class="banner">
+<h1>IMPORTADOS DE ALTO PADRÃO</h1>
+<p>Exclusividade, qualidade premium e envio para todo o Brasil</p>
+<p><strong>5% OFF no Pix</strong></p>
+
+<a class="btn" href="https://wa.me/5562999032256" target="_blank">
+Comprar no WhatsApp
+</a>
+</section>
+
+<section class="products">
+
+<div class="product">
+<h3>Nike Air Force 1</h3>
+<p>R$ 399,90</p>
+<a class="btn" href="https://wa.me/5562999032256?text=Quero%20Air%20Force%201">Comprar</a>
+</div>
+
+<div class="product">
+<h3>Nike Dunk Low Panda</h3>
+<p>R$ 429,90</p>
+<a class="btn" href="https://wa.me/5562999032256?text=Quero%20Dunk%20Panda">Comprar</a>
+</div>
+
+<div class="product">
+<h3>Adidas Campus 00s</h3>
+<p>R$ 389,90</p>
+<a class="btn" href="https://wa.me/5562999032256?text=Quero%20Campus%2000s">Comprar</a>
+</div>
+
+<div class="product">
+<h3>New Balance 550</h3>
+<p>R$ 459,90</p>
+<a class="btn" href="https://wa.me/5562999032256?text=Quero%20NB%20550">Comprar</a>
+</div>
+
+</section>
+
+<footer>
+Vh Imports — Loja física em Goiânia | Enviamos para todo Brasil
+</footer>
+
+</body>
+</html>
